@@ -159,6 +159,8 @@ async function drawGraph(url, baseUrl, pathColors, depth, enableDrag, enableLege
         .transition()
         .duration(200)
         .style("opacity", 1)
+        .style("fill", "#FF0000")
+
     }).on("mouseleave", function(_, d) {
       d3.selectAll(".node")
         .transition()

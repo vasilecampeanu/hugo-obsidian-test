@@ -1,4 +1,56 @@
 baseURL: http://example.org/
 languageCode: en-us
-title: My New Hugo Site
+
+pygmentsUseClasses: true
+relativeURLs: false
+disablePathToLower: true
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+title: Vasile Campeanu
 theme: PaperMod
+
+summaryLength: 20
+paginate: 10
+enableGitInfo: true
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        menu:
+            main:
+                - name: ARCHIVE
+                  url: archives
+                  weight: 10
+                - name: TAGS
+                  url: tags/
+                  weight: 20
+
+params:
+    env: production
+    defaultTheme: light
+
+    author: Vasile Campeanu
+    ShowReadingTime: true
+
+    ShowBreadCrumbs: true
+    ShowShareButtons: true
+
+    ShowPostNavLinks: true
+
+    editPost:
+        URL: "https://github.com"
+        Text: "Suggest Changes" # edit text
+        # appendFilePath: true # to append file path to Edit link
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/"
+        - name: instagram
+          url: "https://intagram.com"
