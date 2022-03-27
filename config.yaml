@@ -1,4 +1,4 @@
-baseURL: http://example.org/
+baseURL: http://localhost:1313/
 languageCode: en-us
 
 pygmentsUseClasses: true
@@ -12,7 +12,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 
-title: Vasile Campeanu
+title: Hugo Obsidian Test
 theme: PaperMod
 
 summaryLength: 20
